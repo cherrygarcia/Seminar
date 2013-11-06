@@ -35,7 +35,6 @@ em {
   * June 2013: poster presentation at SER conference
   * November 2013: in press: KE Rudolph, GS Wand, EA Stuart, TA Glass, AH Marques, R Duncko, KR Merikangas. The association between cortisol and neighborhood disadvantage in a U.S. population-based sample of adolescents. _Health Place_.
 3. Aim 3
-  * August 2013: paper drafted
   * December 2013: plan to submit to _American Journal of Epidemiology_
   * August 2014: oral presentation at JSM 
 
@@ -122,7 +121,7 @@ Aim 3: Evaluate methods to estimate a marginal mean effect in the presence of ef
 * Present (past 12-month) versus lifetime emotional disorder, which sub-disorders to include
   * Rosa and Kathleen provided conversation and guidance
 * The association could be an artifact of measurement variance if the measurement of neighborhood disadvantage differs by urbanicity.
-  * Tom raised concern $\to$ sensitivity analysis using factor scores obtained by multiple-group confirmatory factor analysis.  <br/>
+  * Tom raised concern $\rightarrow$ sensitivity analysis using factor scores obtained by multiple-group confirmatory factor analysis.  <br/>
 
 --- &twocol 
 
@@ -180,10 +179,10 @@ Because exposure is not randomized, the association could be an artifact of unob
 ## Aim 2 Challenges
 
 * Exclude participants whose cortisol levels may not be able to be affected by neighborhood sources of stress
-  * Gary and Rosa (actually in last thesis committee meeting) helped think through which individuals' cortisol levels may be artificially influenced $/to$ primary analysis excluded current smokers and drug users, sensitivity analyses relaxed these exclusions to exclude (1) current smokers only and (2) neither
-  * Gary raised concern about having mixture of adolescents who have hypersensitive cortisol reactivity and blunted cortisol reactivity $/to$ sensitivity analysis excluding those who experienced a lot of trauma
+  * Gary and Rosa (actually in last thesis committee meeting) helped think through which individuals' cortisol levels may be artificially influenced $\rightarrow$ primary analysis excluded current smokers and drug users, sensitivity analyses relaxed these exclusions to exclude (1) current smokers only and (2) neither
+  * Gary raised concern about having mixture of adolescents who have hypersensitive cortisol reactivity and blunted cortisol reactivity $\rightarrow$ sensitivity analysis excluding those who experienced a lot of trauma
 * Interpretation of results---HPA axis dimensions not measured
-  * Gary and Tom helped with wording to ensure communiticating importance without overstating our case
+  * Gary and Tom helped with wording to ensure communicating importance without overstating our case
 
 --- &twocol 
 
