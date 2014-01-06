@@ -13,6 +13,15 @@ github      :
   repo      : Seminar
 ---
 
+<!---
+thank you, tom for that kind introduction and 
+thanks to you all for coming today. 
+my name is kara rudolph ;and i'm going to be talking about my dissertation which is titled [read]
+
+here is the agenda for today
+[read]
+-->
+
 ## Agenda
 <style>
 em {
@@ -32,15 +41,15 @@ em {
 <!---
 My research so far has been motivated by the goal of working to improve the MH of teens in disadvantaged neighborhoods.
 [maybe don't say this: MH is a significant public health problem, but I don't think it's received the attention comensurate with its magnitude.]  
-For this talk, I'm going to be focusing on adolescent depression and anxiety
-A US nationally representative survey found that nearly 12% of adolescents had ever had major depressive disorder and nearly 32% ever had an  anxiety disorder....
+This graph is from a US nationally representative survay of adolescent mental health and shows the cumulative prevelance of different categories of disorders by age. 
+For this talk, I'm going to be focusing on adolescent depression (which comprises most of what's shown in green) and anxiety (which is shown in red)
+This nationally representative survey found that nearly 12% of adolescents had ever had major depressive disorder and nearly 32% ever had an  anxiety disorder....
 
 These disorders are not typically isolated, time-limited events, but can have consequence that extend over the lifecourse
-Miss school and sociodevelopmental opportunities $\rightarrow$ negatively affect educational achievement (Breslau et al., 2008), future employment (Kessler et al., 2006), earnings (Kessler et al., 2008), family life (Kessler et al., 1998)
-
-MHdisorders in childhood also [read]
-
-in fact, depression and anxiety are the leading contributors to years lost to disability in the WHO disease burden rankings
+For example, they cause children and adolescents to Miss school and sociodevelopmental opportunities $\rightarrow$ which studies have shown negatively affects educational achievement (Breslau et al., 2008), 
+future employment (Kessler et al., 2006), 
+earnings (Kessler et al., 2008), 
+family life (Kessler et al., 1998)
 -->
 
 ### Adolescent
@@ -60,7 +69,9 @@ in fact, depression and anxiety are the leading contributors to years lost to di
 <img src="./WHO.png" width="800" height="300">
 
 <!---
-MHdisorders in childhood also Increase risk of disorders in adulthood $\rightarrow$ economic costs
+MHdisorders in childhood also Increase risk of disorders in adulthood 
+discorders in adulthood have been shown to have signiifcant $\rightarrow$ economic costs
+[read]
 
 in fact, depression and anxiety are the leading contributors to years lost to disability in the WHO disease burden rankings
 -->
@@ -72,8 +83,10 @@ in fact, depression and anxiety are the leading contributors to years lost to di
 <!---
 So, it's clear that MH is imporatnat, but why neighborhood? 
 well, intuitively, we understand that living in a neighborhood in east bmore may be a different experience than living in a neihgborhood in roland park. 
-living in a disadvantaged neighborhood may entail exposure to more sources stress--e.g., violence, lack of opportunity, low-collective efficacy--that act to dysregulate the stress response system. 
-For example, students who i taught creative writing to in DC had to deal wiht violence on a fairly regular basis. one of their classmates was even shot and killed. its hard to imagine that happening much in the surrounding wealthy suburbs. 
+For example, i taught creative writing to a class of public HS students in DC for a year. theyhad to deal wiht violence on a fairly regular basi-- one of their classmates was tragically even shot and killed. its hard to imagine a classroom of kids from one of the surrounding wealthy suburbs having a similar experience. 
+
+so living in a disadvantaged neighborhood is thought to entail exposure to more sources stress--e.g., violence, lack of opportunity for work and for education, low-collective efficacy--that act to dysregulate the stress response system within individuals. 
+
 dysregulation of the stress response system has been linked to depression and anxiety disorders
 -->
 
@@ -84,10 +97,17 @@ dysregulation of the stress response system has been linked to depression and an
 ## Motivation: Research Gaps
 
 <!---
-There has been a lot of research into this relationship in the past 10 year,s, but results have been inocnsistent. 
+There has been a lot of research into the relationship between neighborhood factors like disdavatnage and mental disorders--- in the past 10 years in particular--but results have been inocnsistent. 
 I think some of these inconsistencies could be due to methodologic limitations that threaten inference
-read bullets
-sought to address several of  these possible contributing factors in my dissertation
+
+read first bullet
+
+positivity violations, which means that for a particular set of covariate values, assignment of neighborhood is deterministic--there is no randonmess. I'll get into this more later, but one example of where this can come about in neihgborhood research is due to the economic and racial segregation of neihgborhoods in this country. For example, a middle-aged white male who is at the upper end of the wealth scale may have essentially a zero probability of living in a very poor urban neihgbohoord. Similarly, a middle-aged black male who is at the lower end of the wealth scale may essentially have a zero probability of living in a very wealthy suburban, white neighbohrood. 
+
+non-transportability, which is also called lack of generalizability. means that results estimated in some study samples may not be valid for other samples or target populations. 
+neighborhood studies are typically conducted in a specific geographic area or several geographic areas. they are usually not population-based, represntative samples. as such, their findings may not  be applicable to a population of interest. 
+
+in my dissertation, i sought to address several of these factors
 -->
 
 * Inconsistent results in the literature
@@ -97,17 +117,34 @@ sought to address several of  these possible contributing factors in my disserta
 
 ---
 
+<!---
+Here is the simplified dag from earlier. 
+In aim 1, we looked at the relationship between ND and D and A and assessed the extent to which level of urbanicity may modify this effect.
+-->
+
 ## Dissertation Overview
 
 <img src="./Slide3.png" width="800" height="580">
 
 ---
 
+<!---
+If there is a relationship between ND and D and A, it's been hypothesized to operate through dysregulation of the stress response system. 
+So in Aim 2 we move slightly upstream and estimated the assocation between ND and 1 component of the stress response syste, salivary cortisol levels
+-->
+
 ## Dissertation Overview
 
 <img src="./Slide4.png" width="800" height="580">
 
 ---
+
+<!---
+In aim 3, we address a problem from Aim 2--that is that we were only able to estimate the association between ND and cortisol among the subsample of participatns for whom we had cortisl data for. 
+
+however, what we really care about is getting an idea for what the association may be in the US population of adolescents. 
+we evaluate a few ways to do this in Aim 3
+-->
 
 ## Dissertation Overview
 
@@ -117,8 +154,10 @@ sought to address several of  these possible contributing factors in my disserta
 
 ## NCS-A
 <!---
-read
-read
+For this dissertation, we use data from the NCSA.
+read first bullet
+The NCS-A collects information from a variety of sources, but i'll just go through the sources that are relevant to this disseration
+read through
 CIDI = Composite international diagnostic interview, corresponds to DSM-IV and ICD-9 diagnoses
 -->
 * Nationally representative sample of U.S. adolescents 13-17 years old (N=10,123)
@@ -132,6 +171,10 @@ CIDI = Composite international diagnostic interview, corresponds to DSM-IV and I
 
 ---
 
+<!---
+Again, in Aim 1 we looked at the association between ND and D and A and assessed possibile effect modification by urbanicity. 
+This aim has been published.
+-->
 ## Aim 1
 
 <img src="./Slide6.png" width="800" height="580">
@@ -145,15 +188,23 @@ CIDI = Composite international diagnostic interview, corresponds to DSM-IV and I
 * Hypothesis: effect modification by urbanicity may contribute to inconsistent results.
 
 <!---
-Inconsistent results in neighborhood disadvantage-adolescent mental health relationship.
-* Studies reporting an association between neighborhood disadvantage and depression/anxiety tended to sample from urban populations; studies reporting no association tended to sample from non-urban populations or a mix.
+This aim was motivated by the 
+Inconsistent results I found when reviewing the literature on the relationship between neighborhood disadvantage-adolescent D and A. 
+* I noticed that Studies reporting an association between neighborhood disadvantage and depression/anxiety tended to sample from urban populations whereas studies reporting no association tended to sample from non-urban populations or a mix.
 This may be because living in a disadvantaged neighborhood in an urban area entails exposure to a diffrent set of stressors than living in a disadvantaged neighborhood in a rural area.
-for example, Lack of green space, noise, residential instability and exposure to violence may all be potential stressors that are more prevalent in disadvanatged neighborhoods.
-there is some evidence that these stressors are linked to emotional disorders 
-* Hypothesis: effect modification by urbanicity may contribute to inconsistent results. The association between neighborhood disadvantage and adolescent depression/anxiety may be greater in urban versus non-urban neighborhoods.
+for example, Lack of green space, noise, residential instability and exposure to violence are more prevalent in urban areas. and there is some evidence that these stressors are linked to emotional disorders 
+* so our hypothesis was that urbanicity may be an effect modifier. specifically, that The association between neighborhood disadvantage and adolescent depression/anxiety may be greater in urban versus non-urban neighborhoods.
 -->
 
 ---
+
+<!---
+I thought that the NCSA was particularly well-suited to evaluate this question. 
+Because of the sampling scheme, it draws adolescents from neighborhoods across a range of urbanicities. 
+In addition, addresses are geocoded to CTs, so we can obtain contextual information from Census data.
+
+The definition of mental disorders is partciularly strong, because the instrument that was used--the CIDI--maps on to DSM-IV diagnoses.
+-->
 
 ## Aim 1: Background
 ### Study  
@@ -167,10 +218,13 @@ there is some evidence that these stressors are linked to emotional disorders
 ## Aim 1: Analysis
 
 <!---
-* Multiple imputation by chained equations for missing data.
-* Propensity score subclassification, excluding those without similar counterparts (4.7%). 
- * Addresses confounding and structural positivity stemming from non-random assignment of neighborhood residence.
-* Survey design-based, weighted analysis to maintain the national representativeness of the sample.  
+Here is an outline of our analysis approach. 
+* We had some mising data adoue to participants skipping some question. To address this, we used Multiple imputation by chained equations.
+* We then performed Propensity score subclassification on these imputed datasets, excluding individuals without similar counterparts (4.7%). That's what I'm showing in the figure on the right. These are the two propensity score distributions. the red is the aadolecents in Non-dis neighborhoods the blue is kids is dis neighborhoods. And the PS is the predicted probability of living in a disadvantaged neihgborhood given the observed covariates. by excluding those without similar counterparts, we are essentially chopping off the tails. such that for a given propensity score, there are participants in both categories of neihgborhood. meaning that for a given propensity socre, there is some randomness in neighborhood assingment.
+[change picture]
+ * PS subclassification also addresses Addresses confounding stemming from non-random assignment of neighborhood residence. I'm showing a one-dimensional summary of how well this worked on teh right. blue dots are pre-subclass.red dots are post-subclas.all of our potential confounding variables are on the y axis and the standaridized mean difference is on the x axis. 
+ so this is showing how balanced the two neighborhood groups are for each of the confounding variables. We can see by the blue dots that before PS subclassification, many of the variables were imbalanced. Afterwards, though, the red dots show us that the subclassification was successful in balancing these variables. 
+* Within each of the PS subclasses, for each imputed dataset, we then conducted Survey design-based, weighted analysis to maintain the national representativeness of the sample.  
 -->
 
 *** left
@@ -204,13 +258,22 @@ there is some evidence that these stressors are linked to emotional disorders
 <img src="./ch1fig2.png" width="600" height="550">
 <div>
 <!---
-dose response
-adolescents in disadvantaged neighborhoods have 59% (1.25, 2.03) greater odds of having a prevalent emotional disorder than those in disadvantaged neighborhoods if that niehgborhood is in an urban center
+here are our results from Aim 1.
+y axis shows the log odds ratio of having prevalent Dep or Anxiety comparing adolescents living in Dis Neigh to nonDis neihg. 
+x axis estimates this log OR for each the 3 urbanicities: non-urban, urban fringe and urban center.
+
+see a dose response relationship where the log OR increases by level of urbanicity.
+for adolescents in urban centers, living in a disadvantaged neighborhood is associated with have 59% (1.25, 2.03) greater odds of having a prevalent emotional disorder as compared to living in a non-disadvantaged neighborhood
 the interaction between urban center and neighborhood dis is also significant. 
 Specifically, the association between neighborhood disadvantage and emotional disorder is more than twice as large (ratio of odds ratios: 2.08, 95% CI: 1.23, 3.55) for adolescents living in urban centers versus non-urban areas
 -->
 
 ---
+
+<!---
+In aim 2 we moved upsteam and estimate the association between ND and one aspect of the stress response system, cortisol. 
+This aim has been published.
+-->
 
 ## Aim 2
 
@@ -228,11 +291,12 @@ Specifically, the association between neighborhood disadvantage and emotional di
 * Geographic homogeneity
 
 <!---
-* Limited previous research in adolescents (Brenner et al., 2013; Chen and Paterson, 2006; Hackman et al., 2012). Found associated with higher resting cortisol, greater reactivity.
-* Limited by small sample size and racial/ethnic and geographic homogeneity.
-these three studies were only in single urban areas (flint, St Louis, Philadelphia)
+In Examining the association between ND and cortisol, we were motivated by several gaps in the literature. 
+* First, there has been surprisingly little research into this realtionship in adolescets. In fact, in my literature review, I only found 3 studies. (Brenner et al., 2013; Chen and Paterson, 2006; Hackman et al., 2012). [maybe don't say this part: These studies Found preliminary evidence that ND was associated with higher resting cortisol, greater reactivity.]
+* However, each of thes 3 studies were Limited by small sample size and racial/ethnic and geographic homogeneity.
+for example the biggest study only included 163 teens (163, 100, 79)
 2/3 studiies were only of african americans
-small! (163, 100, 79)
+and all 3 of the studies only sampled from single urban areas (flint, St Louis, Philadelphia)
 -->
 
 ---
@@ -240,7 +304,8 @@ small! (163, 100, 79)
 ## Aim 2: Background
 
 <!---
-* NCS-A also well-suited to address gaps in previous research. 
+* Again, I thought the NCS-A was well-suited to address these gaps.
+[read]
 -->
 
 ### Study
@@ -255,13 +320,14 @@ small! (163, 100, 79)
 
 *** left
 <!---
-Before I get into the specifics of our analysis, I want to convey what we were up against. Examining the relationship between neighborhood sources of stress and cortisol involves a lot of complexity. 
-First, this relationship depends on the dimension of the HPA axis being measured. Stress researcher Bruce McEwen says that there are two main dimensions. (1) resting, unprovoked levels and (2) and reactivity to an acute stressor
-* History of exposure to stress. 
+Before I get into the specifics of our analysis, I want to convey that the stress response system is extremely complex, and so Examining the relationship between neighborhood sources of stress and cortisol involves requires stratgies to manage this complexity. 
+First, there are numerous systems involved in stress response. cortisol is a component of one of these systems called the hypothalmic pituitary adrenal axis. 
+The relationship  between ND and cortisol likely depends on the dimension of the HPA axis being measured. the two main dimensions being (1) resting, unprovoked levels and (2) and reactivity to an acute stressor
+* Seoncd, the relationship between ND and cortisol also likely depense on the History of exposure to stress. 
   * Those who have been exposed to the most stress---children who are abused---have cortisol levels that look more similar to unstressed children.
   * Reactivity tends to increase with some stress, but becomes blunted with a lot of stress, like abuse
-This hasalso been called weathering because the idea is that after repeated or prolonged activations, this response wears out. 
--fourth bullet.
+This has been called weathering because the idea is that after repeated or prolonged activation of the stress response system, this response wears out. 
+-Third, the relationship may also depend on time of day. In the graph on the right, I'm showing a graph of cortisol levels shortly after wake-up.
 Cortisol has an initial spike when we first wake up. called the cortisol awakening response. see graph. after this initiatl spike, declines for the rest of the day. 
 and the relationship between enighborhood sources of stress may differ depending on time of day. 
 graph compares cortisol levels on the y axis over time on the axis between tertiles of neighborhood violence
@@ -285,23 +351,23 @@ Relationship between neighborhood sources of stress and cortisol levels is compl
 ## Aim 2: Analysis
 
 <!---
-given this complexity, cortisol is ideally measured under very strict laboratory protocols, but this wasn't the case in this study.
-we were left with the challenge: Challenge: How to construct a controlled analysis? 
-I'm going to go through some of these challenges and then how we addressed them.
+given this complexity, cortisol is ideally measured under very strict laboratory protocols, but this isn't practical in a large, nationally representative sample like the NCSA
+In the NCSA, cortisol was measured in the adolescents home right before the start of the interview and right after. 
+we were left with the challenge: How to construct a controlled analysis?
 
-Challenge: * Some kids not at-risk for a cortisol response; cortisol levels may be artificially influenced. 
-Approach: * Restrictive exclusion criteria: pregnant or taking oral contraceptives, diabetic, possibly using steroid inhaler, psychiatric medication, current smokers or drug users. 
+Challenge: * Some kids not at-risk for a cortisol response; cortisol levels may be artificially influenced for example by medications, tobacco or other drugs 
+Approach: * Restrictive exclusion criteria: exluding adolescents who were pregnant or taking oral contraceptives, diabetic, possibly using steroid inhaler, psychiatric medication, current smokers or drug users. 
 
-Challenge: * Some kids may experience blunting.
+Challenge: * Another challennge, as we talked about in the previous slide, is that Some kids with a history of severe or persistent adversity may experience blunting. This would have a washout effect on the association betweeh ND and D and A. 
 Approach: * Sensitivity analysis excluding those with severe adversity
 
-challenge: * Relationship may differ depending on CAR versus post-CAR
+challenge: * Relationship may differ depending on CAR versus post-CAR, as we saw in the picutre on the previous slide
 Approach:* Cortisol measured after CAR
 
 challenge: * Cortisol exhibits a strong diurnal rhythm, but measures taken at all times of day
 Approach: * Propensity score matching with replacement   * Caliper matching on sample time (0.2 SD)
 
-challenge: * Without regard to weekend/weekday, season
+challenge: * Cortisol is also affected by weekend/weekday and race/ethnicity, but samples were taken on both weekend and weekdays and among a ractially diverse sampel 
 Approach: * Propensity score matching with replacement   * Exact matching on weekend/weekday
   * Exact matching on race/ethnicity
 (Just in case: severe adversity defined as adolescents who reported phsyical abuse by their parent (being beaten up, choked, kicked, punched, burned, bitten threatened with a gun or reported 3 or more of the following: parent suicide attempt or completion, parent alcohol abuse, parent drug abuse, parent arrest or imprisonment)
@@ -312,23 +378,30 @@ Challenge | Approach
 Not at-risk for a cortisol response | Restrictive exclusion criteria
 Blunting | Sensitivity analysis
 Heterogeneity by CAR/ post-CAR | Restricted to post-CAR
-Diurnal rhythm | PS with caliper matching 
+Diurnal rhythm | PS with Mahalanobis matching 
 Other strong predictors | PS with exact matching
 
 --- &twocol w1:40% w2:60%
 
 ## Aim 2: Analysis
+<!---
+Here again is an outline of our analysis approach. 
+* As in Aim 1, we had some mising data adoue to participants skipping some question. To address this, we used Multiple imputation by chained equations.
+* We then performed PS matching with replacement and caliper and exact matching as described on the previous slide. 
+The picture on the right again shows the balance between the neighborhood groups aon a list of potential confounding variables before matching in blue and after matching in red. We see that the PS matching succeeded in balancing the two groups across these confounders. 
+*Then, we performed regression outcome analyses on the [read]
+This approach can be thought of as being double robust, because the potential confounders are included in both the PS model and outcome model. so if one model is incorrectly specified but the other is correctly specified, we should still get a consistent estimate
+-->
 
 *** left
-
-<img src="./ch2fig1.png" width="500" height="500">
-
-*** right
-
 * Multiple imputation by chained equations
 * Regression outcome analyses on matched, imputed datasets
   * Gamma regression for point-in-time measures
   * Linear regression for cortisol rate
+
+*** right
+
+<img src="./ch2fig1.png" width="500" height="500">
 
 ---
 
@@ -377,7 +450,7 @@ Problem raised in Aim 2:
 
 Broadly, problem of generalizing results from a non-randomized study sample to a specified target population.
 
-not the same type of missing data problem typically considered in this literature, because we are dealing with survey data and we do not observe any data for individuals not in the survey
+[maybe don't say this: not the same type of missing data problem typically considered in this literature, because we are dealing with survey data and we do not observe any data for individuals not in the survey]
 -->
 
 ---
@@ -389,29 +462,31 @@ Need to control for:
 * Non-random selection into the cortisol sample
 
 <!---
-Problem raised in Aim 2: 
-* Want to estimate the association between living in a disadvantaged neighborhood and cortisol slope in a nationally representative sample, but only have cortisol data on a sub-sample. 
-* Estimated associations may be different from those estimated in the complete sample if there is:
-  1. effect heterogeneity and 
-  2. sub-sample selection probabilities depend on effect modifiers
-
-Broadly, problem of generalizing results from a non-randomized study sample to a specified target population.
-
-not the same type of missing data problem typically considered in this literature, because we are dealing with survey data and we do not observe any data for individuals not in the survey
+To get an idea of what the association would be among the population of U.S. adolescents, we need to 
+[read]
 -->
 
 ---
 
 ## Aim 3 
-
+<!---
+Here I;m showing which part of our conceptual frame work we're addressing. This Aim has been submitted for publication.
+-->
 <img src="./Slide8.png" width="800" height="500">
 
 ---
 
 ## Aim 3: Analysis
 <!---
-Use simulation to evaluate 3 methods to estimate PATE, $E(Y_1 - Y_0)$, from survey sub-sample  under various data distributions and model misspecifications
-  * Compare IPW, DRWLS, TMLE (both DRWLS and TMLE are both DR estimators)
+Aim 3 consisted of a simulation study, which we then applied to our motivating example from Aim 2.
+Our goal was to estimate a population average treatment effect, $E(Y_1 - Y_0)$, from survey sub-sample. 
+In terms of our motivating example: this would be to estimate the average effect of living in a disdavantaged neighborhood on cortisol slope for U.S. adolescents. 
+
+When I initially came across this issue, I thought I'd just use inverse probability weights. However, in this scenario, that approach would involve multiplying 3 weights--(1) survey weights, (2) inverse probability of selection in the sub-sample weights, and (3) inverse probability of treatment weights. IPW already have efficiency concerns, and we were worried that they might get unweildy. So we wanted to compare IPW to some other options that might perform as well or better but would be similarly simple to implement. 
+
+  * we Compared 3 estimators.  IPW, DRWLS, TMLE (both DRWLS and TMLE are both DR estimators)
+DRWLS and TMLE have been compared with IPW previously, but typically in the scenario where there is one source of non-randomness (for example, nonrandom treatment assignment or non-random sample selection or missing data). We wanted to specifically look at the relative performace in this scenario where there is (1) nonrandom subsample selection from a (2) survey with weights, (3) non-random treatment assignment and (4) effect heterogeneity. In doing this, we also demonstrated how to impelment TMLE in the context of survey weights. 
+
 -->
 
 ### Simulation study
@@ -428,25 +503,23 @@ Use simulation to evaluate 3 methods to estimate PATE, $E(Y_1 - Y_0)$, from surv
 
 <img src="./simulationsetupfig.png" width="800" height="400">
 
----
-
-## Aim 3: Analysis
-### Simulation study
-### Apply estimators to motivating example
-
 <!---
-Use simulation to evaluate 3 methods to estimate PATE, $E(Y_1 - Y_0)$, from survey sub-sample  under various data distributions and model misspecifications
-  * Compare IPW, DRWLS, TMLE (both DRWLS and TMLE are both DR estimators)
-* Apply estimators to motivating example., providing a tutorial, including code<br>
+This figure depicts the setup of our simulation. We start with a population of 100,000 individuals, there is a selection mechanism that selects 10,000 of these into a survey--similar to the NCSA. 
+There is then another selection mechanism that selects 5,000 of the survey participants into the subsample. kind of like in the NCSA data where a few thousand of the NCSA participants had cortisol data measured. 
+The nice part about using simulation, is that we can see the full data for everyone in the population. so we see everyone's vector of covariates, W, treatment assignment, A, and potential outcomes Y under treatment A=1 and no treatment A=0. 
+So, we know the true PATE in this simulation. 
+
+In the observed data, however, we observe no data for individuals not in the survey. 
+For those in the survey but not in the subsample, we see their covariates and treatment.
+For those in teh subsample, we see covariates, treatment and the potential outcome for the treatment they actually received. 
 -->
 
 ---
 
 ## Aim 3: Results
 <!---
-In this simulation, we considered two different scenarios. one with linear EH and one with non-linear EH. 
-Here are the results when we correctly specified the parametric model for each scenario. 
-Scenario 1 is on the left and Scenario 2 is on eth eright. 
+In this simulation, we considered two different scenarios. Scenario 1 had linear EH and is shown on the left. Scenario 2 had non-linear EH. and is shown on the right.
+Here are the PATE estimates over the 1,000 simulations when we correctly specified the all parametric models. 
 The x axis shows the estimated PATE and there is a red line at the true value, which is 3 in both scenarios
 The estimators are on the y axis. Show the importance of adjusting for all 3 sources of non-randomness: 
 selection into survey, selection into subsample, non-random treatment assignment.
@@ -456,8 +529,17 @@ below that, IPSW shows how the estimate improves when we adjust for selection in
 below that, IPTW adjusts for non-random treatment assignment
 IPTSvy W adjusts for nonrandom treatment assignment and selection into the survey, but does not account for nonrandom selection into the sub-sample. 
 IPW, DRWLS and TMLE all  acoun for nonrandom treatment and both selection mechanisms
-We see that each of these methods is unbiased and it turns out that both DRWLS and TMLE perform better than IPW in terms of % bias, Var, 95% CI Coverage and MSE.
+We see that each of these methods provides a consistent estimate and it turns out that both DRWLS and TMLE perform better than IPW in terms of % bias, Var, 95% CI Coverage and MSE.
 -->
+
+```
+Error: object 'ate' not found
+```
+
+```
+Error: object 'ate' not found
+```
+
 ![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
 
@@ -466,11 +548,13 @@ We see that each of these methods is unbiased and it turns out that both DRWLS a
 ## Aim 3: Results
 <!---
 This table summaries the meat of our results. as i showed before, we evaluated each estimator under the two different scenarios. 
-we did this when when correctly specified the parametric model, but also under various misspecifications. 
-"Mod" stands for moderate misspecification where we have all teh correct variables, but the incorect for
+we did this when when correctly specified the parametric models as i showed before, but also under various misspecifications. 
+"Mod" stands for moderate misspecification where we have all teh correct variables, but the incorect form
 "Maj" stands fo major misspeicifiacation where we are missing a variable. 
 We misspecify each of the treatment, selection, and outcome models. 
 We see that in general both DRWLS and TMLE perform well when any one of the models is misspecified.
+This is not all that surprising, given that these two methods are double  robust, but what was surprising to me was the poorer performance of IPW even when all the models were correctly specificied.
+This has been discussed before, but IPW continues to be widely used--I think possibly because it is easy to implement in any software. By showing how TMLE can be implemented wiht survey weights and by providing a tutorial for both TMLE and DRWLS, we hope that these better-performing methods may gain popularity.
 -->
 <img src="./ch3atab.png" width="900" height="500">
 
@@ -488,8 +572,7 @@ In this dissertation, we find further support...[read]
 We also evaluate methods to estimate effects/ associations [read]
 specifically, we recommend two DR methods as opposed to IPW. These methods are similar to IPW in terms of their straightforward implementation, but because they are double robust, they perform much better than IPW under incorrect specification of one of the treatment or selection models.
 
-Broad applications stemming from these conlcusions include:
-[read]
+[change slide]
 -->
 
 * Link between neighborhood and mental health.
@@ -500,16 +583,14 @@ Broad applications stemming from these conlcusions include:
 
 ---
 
-## Dissertation Conclusions
-### Broad applications:
-  * Targeting interventions to those subpopulations who may benefit most
-  * Facilitate generalizability/transportability of findings 
-
-
 <!---
 Broad applications stemming from these conlcusions include:
 [read]
 -->
+## Dissertation Conclusions
+### Broad applications:
+  * Targeting interventions to those subpopulations who may benefit most
+  * Facilitate generalizability/transportability of findings 
 
 ---
 
