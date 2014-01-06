@@ -532,6 +532,7 @@ IPW, DRWLS and TMLE all  acoun for nonrandom treatment and both selection mechan
 We see that each of these methods provides a consistent estimate and it turns out that both DRWLS and TMLE perform better than IPW in terms of % bias, Var, 95% CI Coverage and MSE.
 -->
 ```{r, message=FALSE, echo=FALSE, comment="", echo=FALSE,  fig.width=13, fig.height=7}
+setwd("/Users/kararudolph/Aim3")
 library(ggplot2)
 library(plyr)
 library(gridExtra)
@@ -573,7 +574,7 @@ y<-ifelse(t==1, y1, y0)
 
 # True average effect
 ate <- mean(y1)-mean(y0)
-setwd("/Users/kararudolph/Aim3")
+
 #setwd("/Users/kararudolph/Documents/PhD/NIMH/NCSA/cortisol/simulationproject/Rcode/3level")
 ## Scenario 1
 

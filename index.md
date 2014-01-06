@@ -531,15 +531,6 @@ IPTSvy W adjusts for nonrandom treatment assignment and selection into the surve
 IPW, DRWLS and TMLE all  acoun for nonrandom treatment and both selection mechanisms
 We see that each of these methods provides a consistent estimate and it turns out that both DRWLS and TMLE perform better than IPW in terms of % bias, Var, 95% CI Coverage and MSE.
 -->
-
-```
-Error: object 'ate' not found
-```
-
-```
-Error: object 'ate' not found
-```
-
 ![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
 
 
