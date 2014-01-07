@@ -13,6 +13,13 @@ github      :
   repo      : Seminar
 ---
 
+## Agenda
+<style>
+em {
+  font-style: italic
+}
+</style>
+
 <!---
 thank you, tom for that kind introduction and 
 thanks to you all for coming today. 
@@ -21,14 +28,6 @@ my name is kara rudolph ;and i'm going to be talking about my dissertation which
 here is the agenda for today
 [read]
 -->
-
-## Agenda
-<style>
-em {
-  font-style: italic
-}
-</style>
-
 1. Motivation
 2. Dissertation overview
 3. Presentation of results
@@ -41,16 +40,11 @@ em {
 <!---
 My research so far has been motivated by the goal of working to improve the MH of teens in disadvantaged neighborhoods.
 [maybe don't say this: MH is a significant public health problem, but I don't think it's received the attention comensurate with its magnitude.]  
+
 This graph is from a US nationally representative survay of adolescent mental health, the national comorbidity survey adolescent supplement--which is actually the dataset that I used for this dissertation. 
 IT shows the cumulative prevelance of different categories of disorders by age. 
 For this talk, I'm going to be focusing on adolescent depression (which comprises most of what's shown in green) and anxiety (which is shown in red)
 This nationally representative survey found that nearly 12% of adolescents had ever had major depressive disorder and nearly 32% ever had an  anxiety disorder....
-
-These disorders are not typically isolated, time-limited events, but can have consequence that extend over the lifecourse
-For example, they cause children and adolescents to Miss school and sociodevelopmental opportunities $\rightarrow$ which studies have shown negatively affects educational achievement (Breslau et al., 2008), 
-future employment (Kessler et al., 2006), 
-earnings (Kessler et al., 2008), 
-family life (Kessler et al., 1998)
 -->
 
 <img src="./LifetimeDSMIV.png" width="680" height="420">
@@ -76,6 +70,7 @@ Missed school and sociodevelopmental opportunities $\rightarrow$
 * Family life
 
 ---
+
 ## Motivation: Anxiety and Depression
 * Depression: 500 million disability days/year, cost of 36B
 * Anxiety: 700 million disability days/year
@@ -132,38 +127,35 @@ In this dissertation, we addressed each of these--as least in part
 
 ---
 
-<!---
-Here is the simplified dag from earlier. 
-In aim 1, we looked at the relationship between ND and D and A and assessed the extent to which level of urbanicity may modify this effect.
--->
-
 ## Dissertation Overview
 
 <img src="./Slide3.png" width="800" height="580">
+<!---
+Here is the simplified dag from earlier. 
+In aim 1, we looked at the relationship between ND and prevalent D and A and assessed the extent to which level of urbanicity may modify this effect.
+-->
 
 ---
 
+## Dissertation Overview
+
+<img src="./Slide4.png" width="800" height="580">
 <!---
 If there is a relationship between ND and D and A, it's been hypothesized to operate through dysregulation of the stress response system. 
 So in Aim 2 we move slightly upstream and estimated the assocation between ND and 1 component of the stress response syste, salivary cortisol levels
 -->
 
-## Dissertation Overview
-
-<img src="./Slide4.png" width="800" height="580">
-
 ---
 
+## Dissertation Overview
+
+<img src="./Slide5.png" width="800" height="580">
 <!---
 In aim 3, we address a problem from Aim 2--that is that we were only able to estimate the association between ND and cortisol among the subsample of participatns for whom we had cortisl data for. 
 
 however, what we really care about is getting an idea for what the association may be in the US population of adolescents. 
 we evaluate a few ways to do this in Aim 3
 -->
-
-## Dissertation Overview
-
-<img src="./Slide5.png" width="800" height="580">
 
 ---
 
@@ -187,13 +179,13 @@ saliva was collected before and after each interview for the cortisol samples.
 
 ---
 
+## Aim 1
+
+<img src="./Slide6.png" width="800" height="580">
 <!---
 Again, in Aim 1 we examined the pieces that are highlighted in red. 
 We looked at the association between ND and prevalent D and A and assessed possibile effect modification by urbanicity. 
 -->
-## Aim 1
-
-<img src="./Slide6.png" width="800" height="580">
 
 ---
 
@@ -214,6 +206,13 @@ for example, Lack of green space, noise, residential instability and exposure to
 
 ---
 
+## Aim 1: Background
+### Study  
+* NCS-A well-suited to evaluate this question. 
+  * Nationally representative survey of U.S. adolescent mental health (DSM-IV)
+  * Geocoded residences, samples include mix of urban, suburban, and rural.  
+  <br/>
+
 <!---
 I thought that the NCSA was particularly well-suited to evaluate this question. 
 Because of the sampling scheme, it draws adolescents from neighborhoods across a range of urbanicities. 
@@ -222,13 +221,6 @@ In addition, addresses are geocoded to CTs, so we can obtain contextual informat
 The definition of mental disorders is partciularly strong, because the instrument that was used--the CIDI--maps on to DSM-IV diagnoses.
 -->
 
-## Aim 1: Background
-### Study  
-* NCS-A well-suited to evaluate this question. 
-  * Nationally representative survey of U.S. adolescent mental health (DSM-IV)
-  * Geocoded residences, samples include mix of urban, suburban, and rural.  <br/>
-
-
 --- &twocol w1:30% w2:70%
 
 ## Aim 1: Analysis
@@ -236,7 +228,10 @@ The definition of mental disorders is partciularly strong, because the instrumen
 <!---
 Here is an outline of our analysis approach. 
 * We had some mising data adoue to participants skipping some question. To address this, we used Multiple imputation by chained equations.
-* We then performed Propensity score subclassification on these imputed datasets, excluding individuals without similar counterparts (4.7%). That's what I'm showing in the figure on the right. These are the two propensity score distributions. the red is the aadolecents in Non-dis neighborhoods the blue is kids is dis neighborhoods. And the PS is the predicted probability of living in a disadvantaged neihgborhood given the observed covariates. by excluding those without similar counterparts, we are essentially chopping off the tails. such that for a given propensity score, there are participants in both categories of neihgborhood. meaning that for a given propensity socre, there is some randomness in neighborhood assingment.
+* We then performed Propensity score subclassification on these imputed datasets, excluding individuals without similar counterparts (4.7%). That's what I'm showing in the figure on the right. These are the two propensity score distributions. the red is the aadolecents in Non-dis neighborhoods the blue is kids is dis neighborhoods. 
+And the PS is the predicted probability of living in a disadvantaged neihgborhood given the observed covariates. 
+by excluding those without similar counterparts, we are essentially chopping off the tails. s
+such that for a given propensity score, there are participants in both categories of neihgborhood. meaning that for a given propensity socre, there is some randomness in neighborhood assingment.
 [change picture]
  * PS subclassification also addresses Addresses confounding stemming from non-random assignment of neighborhood residence. I'm showing a one-dimensional summary of how well this worked on teh right. blue dots are pre-subclass.red dots are post-subclas.all of our potential confounding variables are on the y axis and the standaridized mean difference is on the x axis. 
  so this is showing how balanced the two neighborhood groups are for each of the confounding variables. We can see by the blue dots that before PS subclassification, many of the variables were imbalanced. Afterwards, though, the red dots show us that the subclassification was successful in balancing these variables. 
@@ -285,15 +280,13 @@ Specifically, the association between neighborhood disadvantage and emotional di
 
 ---
 
+## Aim 2
+
+<img src="./Slide7.png" width="800" height="500">
 <!---
 slow down
 As a reminder, in Aim 2 we examined the components of our conceptual model that are highlighed in red. We moved upsteam and estimated the association between ND and one aspect of the stress response system: salivary cortisol. 
 -->
-
-## Aim 2
-
-<img src="./Slide7.png" width="800" height="500">
-
 
 ---
 
@@ -373,7 +366,7 @@ we were left with the challenge: How to construct a controlled analysis?
 Challenge: * Some kids not at-risk for a cortisol response; cortisol levels may be artificially influenced for example by medications, tobacco or other drugs 
 Approach: * Restrictive exclusion criteria: exluding adolescents who were pregnant or taking oral contraceptives, diabetic, possibly using steroid inhaler, psychiatric medication, current smokers or drug users. 
 
-Challenge: * Another challennge, as we talked about in the previous slide, is that Some kids with a history of severe or persistent adversity may experience blunting. This would have a washout effect on the association betweeh ND and D and A. 
+Challenge: * Another challennge, as we talked about in the previous slide, is that Some kids with a history of severe or persistent adversity may experience blunting. This would have a washout effect on the association betweeh ND and cortisol 
 Approach: * Sensitivity analysis excluding those with severe adversity
 
 challenge: * Relationship may differ depending on CAR versus post-CAR, as we saw in the picutre on the previous slide
@@ -402,7 +395,7 @@ Other strong predictors | PS with exact matching
 <!---
 Here again is an outline of our analysis approach. 
 * As in Aim 1, we had some mising data adoue to participants skipping some question. To address this, we used Multiple imputation by chained equations.
-* We then performed PS matching with replacement and caliper and exact matching as described on the previous slide. 
+* We then performed PS matching with replacement and Mahalanobis matching within calipers and exact matching as described on the previous slide. 
 The picture on the right again shows the balance between the neighborhood groups aon a list of potential confounding variables before matching in blue and after matching in red. We see that the PS matching succeeded in balancing the two groups across these confounders. 
 *Then, we performed regression outcome analyses on the [read]
 This approach can be thought of as being double robust, because the potential confounders are included in both the PS model and outcome model. so if one model is incorrectly specified but the other is correctly specified, we should still get a consistent estimate
@@ -423,12 +416,12 @@ This approach can be thought of as being double robust, because the potential co
 ## Aim 2: Results
 <!---
 Top portion, showing conditional expected ratios of cortisol levels comparing adolescents in disadvantaged neighborhoods to those in non-disadvatnaged neighborhoods. Point estimates and 95% CI
-Panel A is for the pre-interview cortisol levels and Panel B is for the post-interview cortisol levels.
-Panel C shows the conditional expected diffrences in cortisol slope during the late decline period comparing adolescents living in disadvantaged versus non-disadvantaged neighborhoods.
+Top panel is for the pre-interview cortisol levels and Middle Panel is for the post-interview cortisol levels.
+Bottom shows the conditional expected diffrences in cortisol slope during the late decline period comparing adolescents living in disadvantaged versus non-disadvantaged neighborhoods.
 Again, we show the estimate and 95% CI
 In each of the three panels, we show the results for the unadjusted and 3 adjusted models. 
-All adjusted models used adjusted for possible confounders listed in the previous figure in both propesntiy score matching and regression. These possible confounders preceded the exposure.
-Adjusted model 2 added variables for which there could be debate about whether they precede the exposure of follow it. So, they could be confounders and mediators. These were family income and employment history and current status.
+All adjusted models used adjusted for possible confounders listed in the previous figure in both propesntiy score matching and regression. BEcause of the definition of confounder, these were variables that we thought would be affected by the exposure. So for example, gender, age, race, season, region of the country, immigrant status, etc. 
+Adjusted model 2 added variables for which there could be debate about whether they could be affected by the exposure. So, they could be confounders and mediators. These were family income and employment history and current status.
 Adjusted model 3 added hypothesized mediators: small for gestational age, BMI, and sleep variables like typical bedtime on weekdays, bedtime on weekends, typical hours slept on weeknights and typical hours slept on weekends. 
 So in all the models, we see that adolescents in disadvantaged neighborhoods have slightly higher cortisol levels prior to the interview than those in disadvantaged neighborhoods. 
 We see that there's no real difference in post-interview levels. 
@@ -533,8 +526,8 @@ For those in teh subsample, we see covariates, treatment and the potential outco
 ## Aim 3: Results
 <!---
 In this simulation, we considered two different scenarios. Scenario 1 had linear EH and is shown on the left. Scenario 2 had non-linear EH. and is shown on the right.
-Here are the PATE estimates over the 1,000 simulations when we correctly specified the all parametric models. 
-The x axis shows the estimated PATE and there is a red line at the true value, which is 3 in both scenarios
+what we're showing on the x-axis are the PATE estimates over the 1,000 simulations when we correctly specified the all parametric models. 
+there is a red line at the true value, which is 3 in both scenarios
 The estimators are on the y axis. Show the importance of adjusting for all 3 sources of non-randomness: 
 selection into survey, selection into subsample, non-random treatment assignment.
 Top estimators adjust for 0, 1, or 2 of the soures. Bottom 3 estimators adjust for all 3.
@@ -612,7 +605,7 @@ tmleS1var.dat<-data.frame(tmleS1var, lab1)
 tmleS1.box.plot<-ggplot(tmleS1box.dat, aes(x=lab1, y=tmleS1box)) + geom_boxplot() +
 scale_x_discrete(limits=c("trueTMLE", "trueDRWLS", "trueIPW", "trueIPTSvyW", "trueIPTW", "trueIPSW",  "Naive")) +
     stat_summary(fun.y=mean, geom="point", shape=5, size=4) + 
-    coord_flip() + geom_hline(yintercept=ate, colour="red")  + ylab("PATE") +xlab("") + ggtitle("Scenario 1")+ theme( title=element_text(size=9))
+    coord_flip() + geom_hline(yintercept=ate, colour="red")  + ylab("PATE") +xlab("") + ggtitle("Scenario 1: linear effect heterogeneity")+ theme( title=element_text(size=9))
 
 sumcover.tmleS1<- ddply(tmleS1cover.dat, .(lab1), summarise, 
   meancov = mean(tmleS1cover)*100)
@@ -650,7 +643,7 @@ tmleS2var.dat<-data.frame(tmleS2var, lab1)
 tmleS2.box.plot<-ggplot(tmleS2box.dat, aes(x=lab1, y=tmleS2box)) + geom_boxplot() +
 scale_x_discrete(limits=c("trueTMLE", "trueDRWLS", "trueIPW", "trueIPTSvyW", "trueIPTW", "trueIPSW",  "Naive")) +
     stat_summary(fun.y=mean, geom="point", shape=5, size=4) + 
-    coord_flip() + geom_hline(yintercept=ate, colour="red")  + ylab("PATE") +xlab("") + ggtitle("Scenario 2")+ theme( title=element_text(size=9))
+    coord_flip() + geom_hline(yintercept=ate, colour="red")  + ylab("PATE") +xlab("") + ggtitle("Scenario 2: non-linear effect heterogeneity")+ theme( title=element_text(size=9))
 
 sumcover.tmleS2<- ddply(tmleS2cover.dat, .(lab1), summarise, 
   meancov = mean(tmleS2cover)*100)
@@ -706,14 +699,16 @@ specifically, we recommend two DR methods as opposed to IPW. These methods are s
 
 ---
 
-<!---
-Broad applications stemming from these conlcusions include:
-[read]
--->
 ## Dissertation Conclusions
 ### Broad applications:
   * Targeting interventions to those subpopulations who may benefit most
   * Facilitate generalizability/transportability of findings 
+
+
+<!---
+Broad applications stemming from these conlcusions include:
+[read]
+-->
 
 ---
 
