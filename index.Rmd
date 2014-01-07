@@ -29,7 +29,7 @@ em {
 }
 </style>
 
-1. Motivation: adolescent anxiety and depression, influence of neighborhood, research gaps
+1. Motivation
 2. Dissertation overview
 3. Presentation of results
 4. Discussion
@@ -41,7 +41,8 @@ em {
 <!---
 My research so far has been motivated by the goal of working to improve the MH of teens in disadvantaged neighborhoods.
 [maybe don't say this: MH is a significant public health problem, but I don't think it's received the attention comensurate with its magnitude.]  
-This graph is from a US nationally representative survay of adolescent mental health and shows the cumulative prevelance of different categories of disorders by age. 
+This graph is from a US nationally representative survay of adolescent mental health, the national comorbidity survey adolescent supplement--which is actually the dataset that I used for this dissertation. 
+IT shows the cumulative prevelance of different categories of disorders by age. 
 For this talk, I'm going to be focusing on adolescent depression (which comprises most of what's shown in green) and anxiety (which is shown in red)
 This nationally representative survey found that nearly 12% of adolescents had ever had major depressive disorder and nearly 32% ever had an  anxiety disorder....
 
@@ -52,16 +53,30 @@ earnings (Kessler et al., 2008),
 family life (Kessler et al., 1998)
 -->
 
-### Adolescent
+<img src="./LifetimeDSMIV.png" width="680" height="420">
 
-<img src="./LifetimeDSMIV.png" width="650" height="400">
-
-(Merikangas et al., 2010)
+National Comorbidity Survey Replication Adolescent Supplment (NCS-A). Merikangas et al., 2010
 
 ---
 
 ## Motivation: Anxiety and Depression
-### Adult 
+
+<!---
+These disorders are not typically isolated, time-limited events, but can have consequence that extend over the lifecourse
+For example, they cause children and adolescents to Miss school and sociodevelopmental opportunities $\rightarrow$ which studies have shown negatively affects educational achievement (Breslau et al., 2008), 
+future employment (Kessler et al., 2006), 
+earnings (Kessler et al., 2008), 
+family life (Kessler et al., 1998)
+-->
+
+Missed school and sociodevelopmental opportunities $\rightarrow$ 
+* Education
+* Employment
+* Earnings
+* Family life
+
+---
+## Motivation: Anxiety and Depression
 * Depression: 500 million disability days/year, cost of 36B
 * Anxiety: 700 million disability days/year
 * WHO disease burden rankings
@@ -107,7 +122,7 @@ positivity violations, which means that for a particular set of covariate values
 non-transportability, which is also called lack of generalizability. means that results estimated in some study samples may not be valid for other samples or target populations. 
 neighborhood studies are typically conducted in a specific geographic area or several geographic areas. they are usually not population-based, represntative samples. as such, their findings may not  be applicable to a population of interest. 
 
-in my dissertation, i sought to address several of these factors
+In this dissertation, we addressed each of these--as least in part
 -->
 
 * Inconsistent results in the literature
@@ -158,9 +173,10 @@ For this dissertation, we use data from the NCSA.
 read first bullet
 The NCS-A collects information from a variety of sources, but i'll just go through the sources that are relevant to this disseration
 read through
-CIDI = Composite international diagnostic interview, corresponds to DSM-IV and ICD-9 diagnoses
+CIDI = Composite international diagnostic interview, corresponds to DSM-IV and ICD-9 diagnoses.
+saliva was collected before and after each interview for the cortisol samples. 
 -->
-* Nationally representative sample of U.S. adolescents 13-17 years old (N=10,123)
+* Nationally representative, cross-sectional sample of U.S. adolescents 13-17 years old (N=10,123)
 * Sources of information relevant to this dissertation:
   * Face-to-face, computer-assisted interviews with the adolescent. 
     * CIDI modified for adolescents.
@@ -172,8 +188,8 @@ CIDI = Composite international diagnostic interview, corresponds to DSM-IV and I
 ---
 
 <!---
-Again, in Aim 1 we looked at the association between ND and D and A and assessed possibile effect modification by urbanicity. 
-This aim has been published.
+Again, in Aim 1 we examined the pieces that are highlighted in red. 
+We looked at the association between ND and prevalent D and A and assessed possibile effect modification by urbanicity. 
 -->
 ## Aim 1
 
@@ -253,9 +269,8 @@ Here is an outline of our analysis approach.
 --- 
 
 ## Aim 1: Results
-
 <div style='text-align: center;'>
-<img src="./ch1fig2.png" width="600" height="550">
+<img src="./ch1fig2.png" width="550" height="550">
 <div>
 <!---
 here are our results from Aim 1.
@@ -271,8 +286,8 @@ Specifically, the association between neighborhood disadvantage and emotional di
 ---
 
 <!---
-In aim 2 we moved upsteam and estimate the association between ND and one aspect of the stress response system, cortisol. 
-This aim has been published.
+slow down
+As a reminder, in Aim 2 we examined the components of our conceptual model that are highlighed in red. We moved upsteam and estimated the association between ND and one aspect of the stress response system: salivary cortisol. 
 -->
 
 ## Aim 2
@@ -326,7 +341,7 @@ The relationship  between ND and cortisol likely depends on the dimension of the
 * Seoncd, the relationship between ND and cortisol also likely depense on the History of exposure to stress. 
   * Those who have been exposed to the most stress---children who are abused---have cortisol levels that look more similar to unstressed children.
   * Reactivity tends to increase with some stress, but becomes blunted with a lot of stress, like abuse
-This has been called weathering because the idea is that after repeated or prolonged activation of the stress response system, this response wears out. 
+This is usually referred to as blunting because the idea is that after repeated or prolonged activation of the stress response system, this response wears out. 
 -Third, the relationship may also depend on time of day. In the graph on the right, I'm showing a graph of cortisol levels shortly after wake-up.
 Cortisol has an initial spike when we first wake up. called the cortisol awakening response. see graph. after this initiatl spike, declines for the rest of the day. 
 and the relationship between enighborhood sources of stress may differ depending on time of day. 
@@ -335,7 +350,7 @@ see that in high-violence neighborhoods cortisol levels are lower during CAR but
 -->
 Relationship between neighborhood sources of stress and cortisol levels is complex
 * HPA axis dimension 
-* Weathering
+* Blunting
 * Time of day
 
 *** right 
@@ -365,7 +380,7 @@ challenge: * Relationship may differ depending on CAR versus post-CAR, as we saw
 Approach:* Cortisol measured after CAR
 
 challenge: * Cortisol exhibits a strong diurnal rhythm, but measures taken at all times of day
-Approach: * Propensity score matching with replacement   * Caliper matching on sample time (0.2 SD)
+Approach: * Propensity score matching with replacement   * Mahalanobis matching within propensity score calipers, which is a way of providing particularly tight control for this variable. 
 
 challenge: * Cortisol is also affected by weekend/weekday and race/ethnicity, but samples were taken on both weekend and weekdays and among a ractially diverse sampel 
 Approach: * Propensity score matching with replacement   * Exact matching on weekend/weekday
@@ -470,7 +485,8 @@ To get an idea of what the association would be among the population of U.S. ado
 
 ## Aim 3 
 <!---
-Here I;m showing which part of our conceptual frame work we're addressing. This Aim has been submitted for publication.
+slow down
+Here I;m showing which part of our conceptual frame work we're addressing in red. 
 -->
 <img src="./Slide8.png" width="800" height="500">
 
@@ -486,9 +502,7 @@ When I initially came across this issue, I thought I'd just use inverse probabil
 
   * we Compared 3 estimators.  IPW, DRWLS, TMLE (both DRWLS and TMLE are both DR estimators)
 DRWLS and TMLE have been compared with IPW previously, but typically in the scenario where there is one source of non-randomness (for example, nonrandom treatment assignment or non-random sample selection or missing data). We wanted to specifically look at the relative performace in this scenario where there is (1) nonrandom subsample selection from a (2) survey with weights, (3) non-random treatment assignment and (4) effect heterogeneity. In doing this, we also demonstrated how to impelment TMLE in the context of survey weights. 
-
 -->
-
 ### Simulation study
 * Estimand: PATE 
 * Estimators
@@ -672,21 +686,19 @@ This has been discussed before, but IPW continues to be widely used--I think pos
 ---
 
 ## Dissertation Conclusions
-
 <!---
 I'd like to wrap up with some overall conclusions from this work
 In this dissertation, we find further support...[read]
 * Further support for the link between neighborhood and mental health. 
-  * Living in a disadvantaged neighborhood associated with $\uparrow$ odds of depression/anxiety for teens if that neighborhood is in an urban center but not otherwise.
-  * Living in a disadvantaged neighborhood associated with cortisol levels for teens. In sub-sample and for U.S. adolescents.
+  * Living in a disadvantaged neighborhood associated with $\uparrow$ odds of depression/anxiety if that neighborhood is in an urban center but not otherwise.
+  * Living in a disadvantaged neighborhood associated with cortisol levels. In sub-sample and for U.S. adolescents.
   
 We also evaluate methods to estimate effects/ associations [read]
 specifically, we recommend two DR methods as opposed to IPW. These methods are similar to IPW in terms of their straightforward implementation, but because they are double robust, they perform much better than IPW under incorrect specification of one of the treatment or selection models.
 
 [change slide]
 -->
-
-* Link between neighborhood and mental health.
+* Link between neighborhood and mental health among adolescents.
   * Disadvantaged neighborhood associated with $\uparrow$ odds of depression/anxiety if urban center 
   * Disadvantaged neighborhood associated with cortisol levels
 * Estimating effects/associations from a survey sub-sample
@@ -711,7 +723,10 @@ Broad applications stemming from these conlcusions include:
   * Measurement limitations
   * Theoretical limitations
 
-
+* Cortisol as outcome
+  * Measurement limitations
+  * Theoretical limitations
+  
 <!---
 Before ending, I'd like to review a few of the dissertation's limiations and strengths.
 For example, there are a number of limitations that stem from using neighborhood disadvantage as the exposure of interest
@@ -730,29 +745,13 @@ I think this is fairly significant limitation, and In future work, I would like 
 would aid inference as well as the study’s practical utility informing policies and programs. 
 [may be don't say this either: 2. ND PS model assumes that variables in teh model are measured without error. 
 examining this assumption--the effects of estimating PS when vars measured with error and strategies to relax this assumption will be area of postdoctoral work]
--->
 
----
-
-## Limitations
-
-* Cortisol as outcome
-  * Measurement limitations
-  * Theoretical limitations
-
-
-<!---
 Cortisol as outcome
 Measurement limitations
-cortisol is sensitivite to a wide range of factors (e.g., light, temperature, noise, level of physical activity, smoking, drinking) that are typically held constant in when cortisol is measured under laboratory conditions, but were not able to be held constant in its collection in this case. 
+cortisol is sensitivite to a wide range of factors that are typically held constant in when cortisol is measured under laboratory conditions, but were not able to be held constant in its collection in this case. 
 the study did not use protocols that correspond to one of the HPA axis domains. administer either a standardized acute stressor (e.g., a Trier stress test) or rest period are required. we cannot infer that the cortisol outcomes in Aim 2 map onto specific HPA axis dimensions.
 
-cortisol is only one of mahy stress biomarkers
-  1. primary mediators, primary effects, secondary effects
-  2. multiple systems: HPA axis, sympathetic nervous system
-  and 3. multiple systems affected: metabolic, immunologic, cardiovascular
-
-this is all to say that this is complex and cortisol is just showing us one piece
+cortisol is only one of many biomarkers of one of many systems involved in stress response. So, we are only observing one tiny piece of this very complex system. 
 -->
 
 ---
